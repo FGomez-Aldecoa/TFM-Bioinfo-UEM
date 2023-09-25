@@ -10,4 +10,4 @@ En la carpeta RESULTS tampoco se ha almacenado nada, los resultados se encuentra
 
 En la carpeta RAW van a encontrarse los links simbólicos de los fasqc de los individuos analizados, además de los archivos bed que definen los intervalos donde se queieren anotar las diferentes variantes
 
-EN la carpeta TMP no ha sido necesario almacenar nada
+En la carpeta TMP no ha sido necesario almacenar nada
