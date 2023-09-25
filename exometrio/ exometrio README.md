@@ -2,7 +2,7 @@
 
 En la carpeta ANALYSIS es donde estan todos los lablogs y carpetas necesarias para realizar el análisis
 
-En la carpeta DOC es donde se encuentra el archivo de configuración de sarek para el HPC, y donde posteriormente se va a crear el archivo Family.ped que va a contener la información relacionada con el pedigrí de los individuos que forman la familia.
+En la carpeta DOC es donde se encuentra el archivo de configuración de sarek para el HPC (hpc_slurm_sarek.config), y donde posteriormente se va a crear el archivo Family.ped que va a contener la información relacionada con el pedigrí de los individuos que forman la familia.
 
 En la carpeta REFERENCES en este caso no se introducido nada
 
