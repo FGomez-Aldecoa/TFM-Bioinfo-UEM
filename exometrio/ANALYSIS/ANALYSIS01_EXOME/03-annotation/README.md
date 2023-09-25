@@ -23,3 +23,9 @@ El ejecutable _04_exomiser.sh, que contiene la configuración con la que va a ej
 
 El ejecutable _05_filter_heritance que va a tomar los resultados de exomiser, va a unirlos a variants_annot_all.tab (obtenida en el ejecutable _03_Vep_plugin_dbNSFP_parse.sh y usando las cabeceras proporcionadas
 en header_vep_final_annot.txt, se van a crear cinco archivos, uno para cada tipo de herencia (los cuales vienen determinados en el txt inheritances_types.txt que va incluido en la carpeta 03-annotation).
+
+Para poder ejecutar todos los procesos es necesario cargar los módulos:
+CFtools/1.12-GCC-10.2.0 
+VEP/103.1-GCC-10.2.0 
+R/4.2.1 
+Java/17.0.2.lua
