@@ -15,4 +15,4 @@ Un script llamado _01_run_sarek.sh que ejecuta sarek.sbatch y lo envia al planif
 
 Un script llamado _02_clean.sh (que se ejecuta después de sarek con el objetivo de eliminar carpetas innecesarias y de gran peso como son /work y /01-sarek/gatk4
 
-Para poder ejecutar sarek es necesario cargar el módulo Nextflow singularity
+# Para poder ejecutar sarek es necesario cargar el módulo Nextflow singularity
