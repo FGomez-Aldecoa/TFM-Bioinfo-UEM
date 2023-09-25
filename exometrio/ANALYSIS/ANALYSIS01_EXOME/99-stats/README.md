@@ -6,4 +6,4 @@ Un ejecutable llamado _01_picardHsMetrics.sh, que va a ejecutar PICARD para obte
 
 Un ejecutable llamado _02_hsMetrics_all.sh, que a crear un archivo llamado hsMetrics_all.out que va a contener todas las estadisicas resumidas de cada una de las muestras
 
-Para poder realizar estos procesos es necesario cargar el modulo picard
+Para poder realizar estos procesos es necesario cargar el módulo: picard
