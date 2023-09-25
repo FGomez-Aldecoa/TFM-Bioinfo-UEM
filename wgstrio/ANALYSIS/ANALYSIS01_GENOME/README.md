@@ -13,4 +13,4 @@ Un script de shell denominado sarek.sbatch con la configuración de sarek conten
 
 Un script llamado _01_run_sarek.sh que ejecuta sarek.sbatch y lo envia al planificador de trabajos SLURM, pudiendose supervisar el trabajo a través del comando squeue
 
-Un script llamado _02_clean.sh (que se ejecuta después de sarek con el objetivo de eliminar carpetas innecesarias y de gran peso como son /work y 01-sarek/gatk4
+Un script llamado _02_clean.sh (que se ejecuta después de sarek con el objetivo de eliminar carpetas innecesarias y de gran peso como son /work y /01-sarek/gatk4
