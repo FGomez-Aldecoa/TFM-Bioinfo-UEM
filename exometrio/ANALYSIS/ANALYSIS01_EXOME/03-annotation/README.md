@@ -22,4 +22,4 @@ frecuencias alélicar menores a 0,001
 El ejecutable _04_exomiser.sh, que contiene la configuración con la que va a ejecutarse la anotación por exomiser , la cual es tomada de configfile.yml (incluido en esta carpeta)
 
 El ejecutable _05_filter_heritance que va a tomar los resultados de exomiser, va a unirlos a variants_annot_all.tab (obtenida en el ejecutable _03_Vep_plugin_dbNSFP_parse.sh y usando las cabeceras proporcionadas
-en header_vep_final_annot.txt, se van a crear cinco archivos, uno para cada tipo de herencia (eliminando todos los archivos intermedios usados para crear estos últimos cinco archivos).
+en header_vep_final_annot.txt, se van a crear cinco archivos, uno para cada tipo de herencia (los cuales vienen determinados en el txt inheritances_types.txt que va incluido en la carpeta 03-annotation).
