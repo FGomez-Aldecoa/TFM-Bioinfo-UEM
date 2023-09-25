@@ -1,4 +1,4 @@
-Ejecutando el lablog se crea:
+# Ejecutando el lablog se crea:
 
 Un ejecutable llamado _01_separate_snps_indels.sh que permite separar los snps de los indels creando un vcf para cada uno de ellos, que posteriormente van a ser filtrados
 
