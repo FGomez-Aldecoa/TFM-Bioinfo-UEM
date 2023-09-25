@@ -7,6 +7,7 @@ El archivo family.ped en la carpeta DOC
 Un archivo csv denominado samples.csv con los datos ID del paciente, sexo, estado, muestra, carrera, y rutas a los archivos FASTQ 1 y 2
 
 Las carpetas 01-sarek, 02-postprocessing, 03-annotation y 99-stats
+(En 01-sarek se almacenarán los datos obtenidos del análisis con sarek (csv, gatk4, multiqc, pipeline_info, preprocessing, reports y variant_calling)
 
 Un script de shell denominado sarek.sbatch con la configuración de sarek contenida en DOC
 
