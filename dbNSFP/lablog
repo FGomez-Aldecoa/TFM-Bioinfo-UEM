@@ -6,7 +6,7 @@
 
 ## 1. Extract dbNSFP4.3_gene.gz columns (OMIM_id,Fuuunction_description,Disease_description,HPO_id,HPO_name)
 
-echo "zcat dbNSFP4.3_gene.gz | cut -f"2,13,21,22,29,30" > dbNSFP_ENSG_gene.txt" > _00_extract_col_dbNSFP_gene.sh
+echo "zcat dbNSFP4.3_gene.gz | cut -f"2,13,21,22,29,30" > dbNSFP_ENSG_gene_nofilter.txt" > _00_extract_col_dbNSFP_gene.sh
 
 
 
