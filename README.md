@@ -1,4 +1,4 @@
-# Trabajo de Fin de Máster: Actualización de pipeline de tríos de exoma y desarrollo de pipeline de tríos de genoma completo para el diagnóstico de enfermedades raras dentro el programa SpainUDP.
+# Trabajo de Fin de Máster: Mejora de anotación de variantes en análisis de tríos de exoma y genoma completo dentro del programa SpainUDP.
 
 # Por: Fernando Gómez-Aldecoa Cuadrado
 
