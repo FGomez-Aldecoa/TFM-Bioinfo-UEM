@@ -8,8 +8,12 @@ Un ejecutable llamado _01_extract_col_dbNSFP_grch37.sh que va a permitir extraer
 Dos ejecutables llamados _02_filter_empty_gene.sh y _03_filter_empty_grch37.sh que van a filtrar en los dos archivos extraídos todas aquellas columnas que tengan el Ensembl_id vacío. Después del 
 filtrado se van a obtener dos archivos: dbNSFP_ENSG_gene_filter.txt y dbNSFP_ENSG_plugin.txt
 
-Dos ejecutables llamados _04_RenameColumn_dbNSFP_gene_filter.sh y _05_RenameColumn_dbNSFP_plugin.sh que van a cambiar el nombre de la columna #chr por chr y hg19_pos(1-based) por hag19_pos mediante un
-script de R llamado dbNSFP_ENSG_gene_filter_RenameColumn.R. Los archivos resultantes son dbNSFP_ENSG_gene_GRCh37.txt y dbNSFP_ENSG_plugin_hg19.txt que mediante un links simbólicos van a ser añadidos a
-las carpetas 03-annotation de exometrio y wgstrio para ser pegados a los resultados de VEP
+Un ejecutable llamado _04_RenameColumn_dbNSFP_gene_filter.sh que van a cambiar el nombre de la columna #chr por chr y hg19_pos(1-based) por hag19_pos mediante un script de R llamado dbNSFP_ENSG_gene_filter_RenameColumn.R. El archivo resultante es dbNSFP_ENSG_gene_GRCh37.txt
+
+Un ejecutable llamado _05_RenameColumn_dbNSFP_plugin.sh que van a cambiar el nombre de la columna #chr por chr y hg19_pos(1-based) por hag19_pos. El archivo resultante es dbNSFP_ENSG_plugin_hg19.txt
+
+
+Los archivos dbNSFP_ENSG_gene_GRCh37.txt y dbNSFP_ENSG_plugin_hg19.txt mediante un links simbólicos van a ser añadidos alas carpetas 03-annotation de exometrio y wgstrio para ser pegados a los 
+resultados de VEP
 
 Para poder extraer la información de dbNSFP es necesario cargar el módulo: R/4.2.1
